@@ -2,6 +2,15 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 
+const Testing = {
+  ThisIsTrue: true,
+}
+
+function add(x: number, y: number){
+  return x+y;
+}
+
+
 export default function App() {
   return (
     <View style={{ flex: 1 }}>
